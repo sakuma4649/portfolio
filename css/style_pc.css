@@ -1,0 +1,85 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,menu,
+pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+  margin: 0;
+  padding: 0;
+}
+a	{
+	text-decoration:none;
+}
+a:link	{
+	color : #000000;
+}
+a:visited	{
+	color : #000000;
+}
+li{
+  list-style-type: none;
+}
+body{
+  font-size: :95%;
+  font-family: "ＭＳ ゴシック",sans-serif;
+  line-height: 1.5;
+}
+#wrapper{
+  width: 1000px;
+  margin: 0 auto;
+}
+#header{
+  width: 80%;
+  margin-left: 10%;
+}
+.logo{
+  float: left;
+}
+.menu{
+  float: right;
+  margin-top: 20px;
+}
+.menu li{
+  float: left;
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  padding-top: 10px;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(56, 56, 56);
+  border-radius: 5px 0px 5px 0px;
+  text-align: center;
+}
+.menu li:hover{
+  color: rgb(244, 244, 244);
+  background-color: rgb(73, 73, 73);
+}
+.clear{
+  clear: both;
+}
+.main_image img{
+  width:80%;
+  margin-left: 10%;
+  max-width: 100%;
+  height: auto;
+}
+.sectioin{
+  float: left;
+}
+#about{
+  margin-top: 30px;
+  width: 80%;
+  margin-left: 10%;
+}
+#about img{
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 10%;
+}
+#about p{
+  background-color:rgb(252, 252, 252);
+  border-radius: 5px 5px 5px 5px;
+  padding: 10px;
+  float: left;
+  width: 65%;
+  margin-left: 5%;
+  margin-top: 5%;
+}

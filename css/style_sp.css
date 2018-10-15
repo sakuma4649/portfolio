@@ -1,0 +1,54 @@
+#wrapper{
+  width: 100%;
+  margin: 0 auto;
+}
+#header{
+  width: 100%;
+  margin-left: 0%;
+}
+.kv img{
+  width:100%;
+  max-width: 100%;
+  height: auto;
+}
+.logo{
+  width: 100%;
+  text-align: center;
+}
+.menu{
+  margin-top: 5px;
+  margin-bottom: 30px;
+  width: 90%
+}
+.menu li{
+  float: left;
+  width: 25%;
+  height: 30px;
+  margin: 2%;
+  padding-top: 5px;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(56, 56, 56);
+  border-radius: 5px 0px 5px 0px;
+  text-align: center;
+}
+.main_image img{
+  width:100%;
+  max-width: 100%;
+  height: auto;
+  margin-left: 0%;
+}
+#about{
+  width: 90%;
+  margin-left: 2%;
+}
+#about img{
+  width: 30%;
+  margin-left: 35%;
+}
+#about p{
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-top: 0%;
+}
