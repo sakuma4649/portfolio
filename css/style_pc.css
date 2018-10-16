@@ -17,69 +17,50 @@ li{
 }
 body{
   font-size: :95%;
-  font-family: "ＭＳ ゴシック",sans-serif;
+  font-family: "Hannari";
   line-height: 1.5;
 }
 #wrapper{
   width: 1000px;
   margin: 0 auto;
 }
-#header{
-  width: 80%;
-  margin-left: 10%;
+#main_image_pc{
+    margin-top: 50px;
+  width: 800px;
+  margin-left: 100px;
 }
-.logo{
-  float: left;
+#main_image_pc img{
+  width: 500px;
+  margin-left: 150px;
 }
-.menu{
-  float: right;
-  margin-top: 20px;
+#main_image_pc h1{
+  text-align: center;
+  color: rgb(60, 60, 60);
 }
-.menu li{
-  float: left;
-  width: 100px;
-  height: 40px;
-  margin: 10px;
-  padding-top: 10px;
+#button p{
+  text-align: center;
+  width: 150px;
+  margin-left: 325px;
+  margin-top: 30px;
+  padding: 10px 0;
   border-style: solid;
   border-width: thin;
-  border-color: rgb(56, 56, 56);
-  border-radius: 5px 0px 5px 0px;
+  border-radius:10px 0px 0px 0px;
+  border-color: rgb(60, 60, 60);
+}
+#button p:hover{
   text-align: center;
-}
-.menu li:hover{
-  color: rgb(244, 244, 244);
-  background-color: rgb(73, 73, 73);
-}
-.clear{
-  clear: both;
-}
-.main_image img{
-  width:80%;
-  margin-left: 10%;
-  max-width: 100%;
-  height: auto;
-}
-.sectioin{
-  float: left;
-}
-#about{
+  width: 150px;
+  margin-left: 325px;
   margin-top: 30px;
-  width: 80%;
-  margin-left: 10%;
+  padding: 10px 0;
+  border-style: solid;
+  border-width: thin;
+  border-radius:10px 0px 0px 0px;
+  border-color: rgb(60, 60, 60);
+  background-color: rgb(60, 60, 60);
+  color: rgb(255, 255, 255);
 }
-#about img{
-  float: left;
-  margin-left: 5%;
-  margin-top: 5%;
-  width: 10%;
-}
-#about p{
-  background-color:rgb(252, 252, 252);
-  border-radius: 5px 5px 5px 5px;
-  padding: 10px;
-  float: left;
-  width: 65%;
-  margin-left: 5%;
-  margin-top: 5%;
+#main_image_sp img{
+  display: none;
 }

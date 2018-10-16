@@ -1,0 +1,25 @@
+
+#wrapper{
+  width: 100%;
+  margin: 0 auto;
+}
+#main_image_pc{
+  margin-top: 10%;
+  width: 100%;
+  margin-left: 0;
+}
+#main_image_pc img{
+  width: 60%;
+  margin-left: 20%;
+}
+#main_image_pc h1{
+
+}
+#button p{
+  width: 20%;
+  margin-left: 40%;
+}
+#button p:hover{
+  width: 20%;
+  margin-left: 40%;
+}
