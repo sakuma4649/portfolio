@@ -20,7 +20,8 @@
     z-index: 2;
     position: relative;
     top: -400px;
-    left: 20px;
+    width: 70%;
+    left: 25%;
    text-align: left;
    font-size: 26px;
    color: rgb(56, 56, 56);
