@@ -9,9 +9,26 @@
   <link rel="stylesheet" href="css/tablet.css" media="screen and (max-width:800px)">
   <link rel="stylesheet" href="css/sp.css" media="screen and (max-width:400px)">
   <link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
-
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" media="screen" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="slick/slick.min.js"></script>
 </head>
 <body>
+<script type="text/javascript">
+$(function() {
+  $('.carousel').slick({
+    dots: true,
+    autoplay: true,
+    centerMode: true,
+    centerPadding: '0px',
+    autoplaySpeed: 1000,
+    arrows: true,
+    swipe: true,
+  });
+});
+
+</script>
     <div id="wrapper">
       <div id="main_image_sp">
         <img src="img/kv_sp.png">
@@ -19,8 +36,8 @@
       <div id="main_image_pc">
         <img src="img/kv_pc.jpg">
         <h1>Borderless Technology <br>with MONDUS.</h1>
-        <div id="button">
-          <p>see more</p>
+        <div id="button"><a href="#section">
+          <p>see more</p></a>
         </div>
       </div>
       <div id="section">
@@ -34,6 +51,11 @@
           　幅広い表現活動を通して、最適な表現媒体でユーザーにコンテンツを届けます。</p>
         <div id="button_section"><p>作品をみる</p></div>
       </div>
+<div class="carousel">
+  <div class="box1"><img src="img/crousel_01.jpg"></div>
+  <div class="box2"><img src="img/crousel_02.jpg"></div>
+  <div class="box3"><img src="img/crousel_03.jpg"></div>
+</div>
       <footer><p>MONDUS ©️ 2018</p></footer>
     </div>
 </body>

@@ -91,5 +91,15 @@ footer{
 }
 footer p{
   text-align: center;
-  padding: 10px;
+  padding:
+}
+
+.carousel {
+  margin-top: 100px;
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+}
+.carousel div {
+  height: 200px;
 }
